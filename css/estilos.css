@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+:root {
+    --primary-bg-color:#f9f4ea;
+    --secondary-bg-color:#f1eadc;
+    --hover-bg-color:#0000;
+    --box-bg-color:white;
+    --icon-color:black;
+    --button-bg-color:#f76b69;
+    --button-text-color:white;
+  }
+  
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Akshar", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #494949;
+}
+
+header{
+    background-color:var(--primary-bg-color);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 20px 200px;
+}
+
+nav a{
+    margin-right: 20px;
+}
+.search i{
+    padding: 8px 8px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#a19474;
+}
