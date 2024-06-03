@@ -19,6 +19,7 @@
     font-weight: 400;
     font-style: normal;
     color: #494949;
+    font-size: large;
 }
 
 header{
@@ -67,7 +68,7 @@ a:hover{
 .left p{
     text-align: justify;
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 18px;
 }
 .rigth{
     display: flex;
@@ -86,3 +87,9 @@ a:hover{
     padding: 20px 10px;
 }
 /* Fin Hero */
+/* Footer */
+footer{
+    background-color: var(--secondary-bg-color);
+    text-align: center;
+}
+/* Fin Footer */
