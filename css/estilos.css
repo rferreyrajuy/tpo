@@ -42,3 +42,47 @@ a{
 a:hover{
     color:#a19474;
 }
+/* Hero */
+.hero{
+    display: flex;
+    background-color: #f1eadc;
+    justify-content:center;
+    align-items: stretch;
+    height: 70vh;
+    padding: 10px 200px;
+}
+.hero span{
+    color:#f76b69;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex-basis: 60%;
+    padding: 10px;
+    /* background-color: #f76b69; */
+}
+.left p{
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 22px;
+}
+.rigth{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #a19474; */
+}
+.social{
+    padding-top: 10px;
+}
+.social i{
+    font-size: 28px;
+    color: var(--icon-color);
+    padding: 20px 10px;
+}
+/* Fin Hero */
