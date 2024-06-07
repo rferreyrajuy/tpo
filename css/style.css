@@ -105,7 +105,41 @@ a:hover{
     padding: 20px 20px;
 }
 /* Fin Hero */
-
+/* about*/
+.about{
+    display: flex;
+    /* justify-content:space-between; */
+    align-items:center;
+    height: 450px;
+    background-color:var(--primary-bg-color);
+    padding: 10px 200px;
+}
+.experience{
+    padding-left: 100px;
+}
+.experience span{
+    color:#f76b69;
+}
+.experience p{
+    padding-top: 10px;
+}
+.experience h1{
+    padding-top: 10px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    padding-top: 30px;
+}
+.yearexperience{
+    height: 100px;
+    width: 170px;
+    background-color:white;
+    padding-left: 20px;
+}
+/* end about*/
 /* about me */
 .service{
     display: flex;
