@@ -57,4 +57,55 @@
     .social{
         flex-direction: row;
     }
+    .about{
+        flex-direction: column;
+        align-items: center;
+        height: 690px;
+        padding: 20px 20px;
+    }
+    .about img{
+        padding: 20px 20px;
+    }
+    .experience{
+        /* padding: 0px 20px; */
+        padding: 20px 20px;
+    }
+    .yearexperience{
+        height: 135px;
+    }
+    .service{
+        flex-direction: column;
+        padding: 20px 30px;
+        height: 600px; 
+    }
+    .boxservice{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .itemservice{
+        flex: 1 0 20%;
+        margin-top: 10px;
+    }
+    .contacme{
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .contactme-rigth{
+        padding: 10px 10px;
+        flex:1 0 50%;
+    }
+    .contactme-left{
+        flex:1 0 50%;
+        padding: 10px 10px;
+    }    
+    .Contribuitors{
+        flex-direction: column;
+        padding: 10px 10px;
+    }
+    .contact{
+        padding: 20px 20px;
+    }
+    .portfolio{
+        padding: 20px 20px;
+    }
 }

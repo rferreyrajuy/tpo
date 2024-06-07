@@ -187,7 +187,8 @@ a:hover{
 /* contactme */
 .contacme{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    /* justify-content: center; */
     background-color:var(--primary-bg-color);
     padding: 50px 200px;
 }
@@ -199,6 +200,7 @@ a:hover{
     flex-basis: 50%;
     padding-right: 10px;
     text-align: center;
+    /* flex: 1 0 50%; */
 }
 .contactme-left iframe{
     border-radius: 5px;
@@ -209,12 +211,13 @@ a:hover{
     padding: 40px;
     background-color: #ffffff;
     border-radius: 5px;
+    /* flex: 1 0 50%; */
 }
 .contactme-rigth form{
     display: flex;
     flex-direction: column;
     height: 250px;
-    /* padding: 10px; */
+    padding: 10px;
 }
 .contactme-rigth form input,textarea{
     padding: 10px;
@@ -248,8 +251,8 @@ a:hover{
 .contact{
     display: flex;
     flex-direction: column;
-    height: 300px;
-    /* justify-content:space-between; */
+    /* height: 300px; */
+    justify-content:space-around;
     align-items:center;
     background-color:var(--secondary-bg-color);
     padding: 20px 200px;
