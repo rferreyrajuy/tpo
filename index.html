@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>rx Lumax</title>
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
     <header>
         <img src="./img/logo.png" alt="">
-        <nav>
+        <nav class="nohide">
             <a href="#">Home</a>
             <a href="#">About</a>
             <a href="#">Service</a>
@@ -17,8 +19,8 @@
             <a href="#">Contact</a>
         </nav>
         <section class="search">
-            <i class="bi bi-search"></i>
-            <i class="bi bi-list"></i>
+            <a href="#"><i class="bi bi-search"></i></a>
+            <a href="#"><i class="bi bi-list hide"></i></a>
         </section>
     </header>
     <!--Inicio Hero -->
@@ -27,7 +29,7 @@
             <h3>HOLA YO SOY</h3>
             <span>RODOLFO FERREYRA</span>
             <img src="./img/topic.png" alt="">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id culpa quas, unde magni natus quo error, asperiores eveniet laborum commodi officia porro aspernatur aliquam blanditiis, velit modi odio et omnis ut incidunt libero labore temporibus doloremque. Totam dignissimos sed ea optio aliquid accusamus est, ad quasi quam, repudiandae itaque doloremque?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum assumenda perferendis magni dolore quaerat aliquid ex, sint dolor? Voluptatem, facere!</p>
             <a class="boton" href="">CONTACTAME</a>
         </div>
         <div class="rigth">
@@ -41,6 +43,24 @@
         </div>
     </section> 
     <!-- Fin Hero    -->
+    <section class="about">
+        <img src="img/aboutme.png" alt="">
+        <div class="experience">
+            <span>ABOUT ME</span>
+            <h1>CREATIVE DESIGNE WITH MODERN TECHNIQUES</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi autem cum fugiat tempore perferendis aliquid rerum iure molestias mollitia distinctio.</p>
+            <div class="box">
+                <div class="yearexperience">
+                    <h1>10+</h1>
+                    <p>YEARS OF EXPERIENCE</p>
+                </div>
+                <div class="yearexperience">
+                    <h1>10+</h1>
+                    <p>YEARS OF EXPERIENCE</p>
+                </div>
+            </div>
+        </div>
+    </section>     
     <footer>
         <p>@ 2024 SOFT FUNDER.ALL RIGTHS RESERVED</p>
     </footer>
