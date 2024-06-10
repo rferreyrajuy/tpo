@@ -61,7 +61,7 @@ a:hover{
     background-color: #f1eadc;
     justify-content:center;
     align-items: stretch;
-    height: 60vh;
+    height: 80vh;
     padding: 10px 200px;
 }
 .hero span{
@@ -76,7 +76,7 @@ a:hover{
     flex-basis: 60%;
     padding: 10px;
     /* background-color: #f76b69; */
-    flex: 25%;
+    flex: 1 0 25%;
 }
 .left img{
     background-size: cover;
@@ -96,11 +96,13 @@ a:hover{
     flex-basis: 40%;
     justify-content: center;
     align-items: center;
-    flex: 25%;
+    flex: 1 0 25%;
     /* background-color: #a19474; */
 }
 .rigth img{
     background-size: cover;
+    width: 350px;
+    height: 350px;
 }
 .social{
     display: flex;
@@ -122,8 +124,10 @@ a:hover{
     padding: 10px 200px;
 }
 .about img{
-    flex:25%;
-    object-fit: cover;
+    width: 350px;
+    height: 350px;
+    /* flex:25%; */
+    /* object-fit: cover; */
 }
 .experience{
     padding-left: 50px;
@@ -141,17 +145,31 @@ a:hover{
 .box{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
     /* align-items: center; */
     /* width: 400px; */
     padding-top: 20px;
 }
 .yearexperience{
-    /* height: 100px;
-    width: 170px; */
+    height: 150px;
+    width: 300px;
     background-color:white;
-    margin: 20px 20px;
+    /* margin: 20px 20px; */
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.yearexperience i{
+    padding: 20px;
+}
+.yearexperience h3,p{
+    padding-left: 20px;
+}
+.yearexperience h3{
+    font-size: 45px;
+    padding-top: 20px;
 }
 /* end about*/
 /* about me */
@@ -172,21 +190,55 @@ a:hover{
 }
 .boxservice{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     /* flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     /* width: 100%; */
-    padding-top: 30px;
+    padding-top: 10px;
 }
 .itemservice{
-    /* height: 250px;
-    width: 200px; */
+    height: 290px;
+    width: 250px;
     background-color:white;
-    margin: 20px 10px;
+    margin: 10px 10px;
     text-align: center;
-    padding: 5px;
-    flex:25%;
+    padding: 2px;
+    border-radius: 10px;
+    /* flex:25%; */
+}
+.itemservice img{
+    padding-top:30px;
+}
+.itemservice h2{
+    padding:10px;
+    font-size: large;
+    font-weight: bold;
+
+}
+.itemservice hr{
+    border-color: var(--secondary-bg-color);
+    margin: 21px 0px;
+}
+.itemservice-foot{
+    display: flex;
+}
+.itemservice-foot a:hover{
+    background-color: var(--hover-bg-color);
+}
+.itemservice-foot a{
+    align-items: start;
+    flex:1 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.itemservice-foot i{
+    align-items: end;
+    flex:1 0;
+    font-size: 20px;
+    font-weight: bold;
 }
 /* end about me */
 
@@ -206,6 +258,23 @@ a:hover{
     color:#f76b69;
     padding-top: 20px;
 }
+.portfolio-selector ul{
+    list-style: square;
+    display: flex;
+    justify-content: center;
+}
+.portfolio-selector ul li{
+    /* flex: 1; */
+    margin-right: 30px;
+    font-size: 35px;
+    color: #ffffff;
+}
+.portfolio-selector ul li:hover{
+    /* flex: 1; */
+    color: var(--button-bg-color);
+    /* border:chocolate solid 1px; */
+}
+
 .works{
     display: flex;
     flex-wrap: wrap;
@@ -220,39 +289,36 @@ a:hover{
 /* contactme */
 .contacme{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     /* justify-content: center; */
     background-color:var(--primary-bg-color);
-    padding: 50px 200px;
-    flex-wrap: wrap;
+    padding: 20px 200px;
 }
 .contacme span{
     color:#f76b69;
     padding-top: 20px;
 }
 .contactme-left{
-    padding-right: 10px;
+    padding-right: 20px;
     text-align: center;
-    flex:25%;
-    /* flex: 1 0 50%; */
+    flex:1 0 50%;
 }
 .contactme-left iframe{
     border-radius: 5px;
 }
 .contactme-rigth{
     justify-content:stretch;
-    padding: 40px;
+    padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
-    flex:25%;;
-    /* flex: 1 0 50%; */
+    flex:1 0 50%;;
 }
 .contactme-rigth form{
     display: flex;
     flex-direction: column;
     /* height: 290px; */
-    padding: 10px;
+    padding: 20px;
 }
 .contactme-rigth form input,textarea{
     padding: 10px;
